@@ -17,20 +17,20 @@ except ImportError:
     read_md = lambda f: open(f, 'r').read()
 
 from os import path
-setup(name='',
-      version='',
-      description='',
+setup(name='demo',
+      version='0.0.1',
+      description='First python package: demo',
       long_description= "" if not path.isfile("README.md") else read_md('README.md'),
-      author='',
-      author_email='',
-      url='',
-      license='',
+      author='Mary Lee',
+      author_email='yrameel98@gmail.com',
+      url='https://github.com/maryllee/msg-getting-started',
+      license='MIT',
       setup_requires=['pytest-runner',],
       tests_require=['pytest', 'python-coveralls'],
       install_requires=[
           "numpy",
       ],
-      packages=[''],
+      packages=['demo'],
       # scripts=[''],
       include_package_data=True,
       classifiers=[
