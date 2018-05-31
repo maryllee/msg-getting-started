@@ -14,14 +14,14 @@ def square(x):
 
 # Second code written for test-driven development workflow.
 """def factorial(n):
-    """Factorial calculates the factorial of the provided integer.
+    ""Factorial calculates the factorial of the provided integer.
     Args:
         n (int): The value that the factorial will be computed from. 
     Returns:
         fact (int): The factorial of n. 
     Raises:
         ValueError: If n is not an integer.
-    """
+    ""
 
     if not isinstance(n,int):
         raise ValueError("The input to factorial must be an integer.")
