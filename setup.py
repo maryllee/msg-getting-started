@@ -29,7 +29,6 @@ setup(name='my_pkg',
       tests_require=['pytest', 'python-coveralls'],
       install_requires=[
           "numpy",
-          "matplotlib",
       ],
       packages=['my_pkg'],
       # scripts=[''],
